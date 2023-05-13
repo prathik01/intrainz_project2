@@ -1,0 +1,50 @@
+
+<html>
+  <head>
+
+    <!--linking to css doc-->
+
+    <link rel="stylesheet" href="form.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+
+    <!--creating input spaces using forms-->
+
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">Name</label>
+          <input type="text" id="username" placeholder="Enter your full name" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter your email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input type="password" id="password2"  />
+          <small>Error Message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+    
+    <!--linking to js doc-->
+
+    <script src="form.js"></script>
+  </body>
+</html>
